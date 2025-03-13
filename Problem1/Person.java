@@ -14,4 +14,24 @@ class Person {
     public String toString() {
         return myName + ", age: " + myAge + ", gender: " + myGender;
     }
+
+    // getters and setters
+    public String getName() {
+        return myName;
+    }
+    public void setName(String name) {
+        this.myName = name;
+    }
+    public int getAge() {
+        return myAge;
+    }
+    public void setAge(int age) {
+        this.myAge = age;
+    }
+    public String getGender() {
+        return myGender;
+    }
+    public void setGender(String gender) {
+        this.myGender = gender;
+    }
 }
