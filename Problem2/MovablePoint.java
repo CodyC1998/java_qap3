@@ -45,6 +45,7 @@ public class MovablePoint extends Point {
         return this;
     }
 
+    @Override
     public String toString() {
         return super.toString() + ", speed=(" + xSpeed + ", " + ySpeed + ")";
     }

@@ -32,7 +32,8 @@ public class Point {
     public float[] getXY() {
         return new float[]{x, y};
     }
-    
+
+    @Override
     public String toString() {
         return "(" + x + ", " + y + ")";
     }
