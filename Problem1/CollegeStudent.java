@@ -10,10 +10,6 @@ public class CollegeStudent extends Student {
         this.major = major;
     }
 
-    public String toString() {
-        return super.toString() + ", Year: " + year + ", Major: " + major;
-    }
-
     // getters and setters
     public int getYear() {
         return year;
@@ -26,5 +22,10 @@ public class CollegeStudent extends Student {
     }
     public void setMajor(String major) {
         this.major = major;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Year: " + year + ", Major: " + major;
     }
 }

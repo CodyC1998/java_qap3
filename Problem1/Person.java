@@ -11,10 +11,6 @@ class Person {
         this.myGender = gender;
     }
 
-    public String toString() {
-        return myName + ", age: " + myAge + ", gender: " + myGender;
-    }
-
     // getters and setters
     public String getName() {
         return myName;
@@ -33,5 +29,9 @@ class Person {
     }
     public void setGender(String gender) {
         this.myGender = gender;
+    }
+
+    public String toString() {
+        return myName + ", age: " + myAge + ", gender: " + myGender;
     }
 }

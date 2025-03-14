@@ -9,10 +9,6 @@ public class Teacher extends Person {
         this.subject = subject;
         this.salary = salary;
     }
-    
-    public String toString() {
-        return super.toString() + ", Subject: " + subject + ", Salary: $" + salary;
-    }
 
     // getters and setters
     public String getSubject() {
@@ -26,5 +22,10 @@ public class Teacher extends Person {
     }
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Subject: " + subject + ", Salary: $" + salary;
     }
 }

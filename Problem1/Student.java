@@ -10,10 +10,6 @@ class Student extends Person {
         this.myGPA = gpa;
     }
 
-    public String toString() {
-        return super.toString() + ", ID: " + myIdNum + ", GPA: " + myGPA;
-    }
-
     // getter and setters
 
     public String getIdNum() {
@@ -27,5 +23,9 @@ class Student extends Person {
     }
     public void setGPA(double gpa) {
         this.myGPA = gpa;
+    }
+
+    public String toString() {
+        return super.toString() + ", ID: " + myIdNum + ", GPA: " + myGPA;
     }
 }
